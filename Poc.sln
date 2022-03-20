@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UserManagement", "UserManagement", "{8EE750DA-A61F-47B3-B524-374E4504BCC3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.API", "UserManagement\UserManagement.Api\UserManagement.API\UserManagement.API.csproj", "{F42A28F8-D3DC-40A0-8171-67E76AA27F6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Domain", "UserManagement\UserManagement.Domain\UserManagement.Domain\UserManagement.Domain.csproj", "{C4538B30-0A27-4ECE-AD8D-0E56B881321D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserManagement.Infrastructure", "UserManagement\UserManagement.Infrastructure\UserManagement.Infrastructure\UserManagement.Infrastructure.csproj", "{4FDFF499-1A45-44AB-AAAC-588E5CEE6CDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7E7D6494-5217-4408-8AE7-E6BD5E2A84C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmqLibrary", "Shared\RmqLibrary\RmqLibrary.csproj", "{785F5CA1-CF8F-4E3B-A51A-118F02F25EFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F42A28F8-D3DC-40A0-8171-67E76AA27F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42A28F8-D3DC-40A0-8171-67E76AA27F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42A28F8-D3DC-40A0-8171-67E76AA27F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42A28F8-D3DC-40A0-8171-67E76AA27F6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4538B30-0A27-4ECE-AD8D-0E56B881321D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4538B30-0A27-4ECE-AD8D-0E56B881321D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4538B30-0A27-4ECE-AD8D-0E56B881321D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4538B30-0A27-4ECE-AD8D-0E56B881321D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FDFF499-1A45-44AB-AAAC-588E5CEE6CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FDFF499-1A45-44AB-AAAC-588E5CEE6CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FDFF499-1A45-44AB-AAAC-588E5CEE6CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FDFF499-1A45-44AB-AAAC-588E5CEE6CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785F5CA1-CF8F-4E3B-A51A-118F02F25EFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785F5CA1-CF8F-4E3B-A51A-118F02F25EFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785F5CA1-CF8F-4E3B-A51A-118F02F25EFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785F5CA1-CF8F-4E3B-A51A-118F02F25EFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F42A28F8-D3DC-40A0-8171-67E76AA27F6A} = {8EE750DA-A61F-47B3-B524-374E4504BCC3}
+		{C4538B30-0A27-4ECE-AD8D-0E56B881321D} = {8EE750DA-A61F-47B3-B524-374E4504BCC3}
+		{4FDFF499-1A45-44AB-AAAC-588E5CEE6CDF} = {8EE750DA-A61F-47B3-B524-374E4504BCC3}
+		{785F5CA1-CF8F-4E3B-A51A-118F02F25EFD} = {7E7D6494-5217-4408-8AE7-E6BD5E2A84C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2C81289-B634-439E-AA48-EDC8ECB005E0}
+	EndGlobalSection
+EndGlobal
